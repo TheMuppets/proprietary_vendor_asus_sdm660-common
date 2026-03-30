@@ -191,6 +191,7 @@ PRODUCT_PACKAGES += \
     libgcs-ipc \
     libgcs-osal \
     libgcs \
+    libmmcamera_dbg \
     libpn553_fw \
     libqtigef \
     libsmwrapper \
