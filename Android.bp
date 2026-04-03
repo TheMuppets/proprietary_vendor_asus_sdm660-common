@@ -4136,37 +4136,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.imscmservice@1.0_vendor",
-    stem: "com.qualcomm.qti.imscmservice@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.imscmservice@2.0_vendor",
-    stem: "com.qualcomm.qti.imscmservice@2.0",
+    name: "com.qualcomm.qti.imscmservice@2.0",
     owner: "asus",
     strip: {
         none: true,
@@ -4194,8 +4164,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.imscmservice@2.1_vendor",
-    stem: "com.qualcomm.qti.imscmservice@2.1",
+    name: "com.qualcomm.qti.imscmservice@2.1",
     owner: "asus",
     strip: {
         none: true,
@@ -4206,7 +4175,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so",
             ],
             shared_libs: [
-                "com.qualcomm.qti.imscmservice@2.0_vendor",
+                "com.qualcomm.qti.imscmservice@2.0",
                 "libhidlbase",
                 "liblog",
                 "libutils",
@@ -4224,8 +4193,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.imscmservice@2.2_vendor",
-    stem: "com.qualcomm.qti.imscmservice@2.2",
+    name: "com.qualcomm.qti.imscmservice@2.2",
     owner: "asus",
     strip: {
         none: true,
@@ -4236,8 +4204,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.2.so",
             ],
             shared_libs: [
-                "com.qualcomm.qti.imscmservice@2.0_vendor",
-                "com.qualcomm.qti.imscmservice@2.1_vendor",
+                "com.qualcomm.qti.imscmservice@2.0",
+                "com.qualcomm.qti.imscmservice@2.1",
                 "libhidlbase",
                 "liblog",
                 "libutils",
@@ -4255,8 +4223,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.uceservice@2.0_vendor",
-    stem: "com.qualcomm.qti.uceservice@2.0",
+    name: "com.qualcomm.qti.uceservice@2.0",
     owner: "asus",
     strip: {
         none: true,
@@ -4284,8 +4251,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.uceservice@2.1_vendor",
-    stem: "com.qualcomm.qti.uceservice@2.1",
+    name: "com.qualcomm.qti.uceservice@2.1",
     owner: "asus",
     strip: {
         none: true,
@@ -4296,7 +4262,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.1.so",
             ],
             shared_libs: [
-                "com.qualcomm.qti.uceservice@2.0_vendor",
+                "com.qualcomm.qti.uceservice@2.0",
                 "libhidlbase",
                 "liblog",
                 "libutils",
@@ -4314,8 +4280,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.uceservice@2.2_vendor",
-    stem: "com.qualcomm.qti.uceservice@2.2",
+    name: "com.qualcomm.qti.uceservice@2.2",
     owner: "asus",
     strip: {
         none: true,
@@ -4326,8 +4291,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.2.so",
             ],
             shared_libs: [
-                "com.qualcomm.qti.uceservice@2.0_vendor",
-                "com.qualcomm.qti.uceservice@2.1_vendor",
+                "com.qualcomm.qti.uceservice@2.0",
+                "com.qualcomm.qti.uceservice@2.1",
                 "libhidlbase",
                 "liblog",
                 "libutils",
@@ -4345,8 +4310,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.uceservice@2.3_vendor",
-    stem: "com.qualcomm.qti.uceservice@2.3",
+    name: "com.qualcomm.qti.uceservice@2.3",
     owner: "asus",
     strip: {
         none: true,
@@ -4357,9 +4321,9 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.3.so",
             ],
             shared_libs: [
-                "com.qualcomm.qti.uceservice@2.0_vendor",
-                "com.qualcomm.qti.uceservice@2.1_vendor",
-                "com.qualcomm.qti.uceservice@2.2_vendor",
+                "com.qualcomm.qti.uceservice@2.0",
+                "com.qualcomm.qti.uceservice@2.1",
+                "com.qualcomm.qti.uceservice@2.2",
                 "libhidlbase",
                 "liblog",
                 "libutils",
@@ -4739,7 +4703,7 @@ cc_prebuilt_library_shared {
                 "libbase",
                 "libutils",
                 "libhidlbase",
-                "com.qualcomm.qti.imscmservice@2.0_vendor",
+                "com.qualcomm.qti.imscmservice@2.0",
                 "lib-imsdpl",
                 "lib-imsqimf",
                 "lib-imsxml",
@@ -4843,17 +4807,19 @@ cc_prebuilt_library_shared {
                 "libqti_vndfwk_detect",
                 "lib-rcsconfig",
                 "libidl",
-                "com.qualcomm.qti.imscmservice@2.0_vendor",
-                "com.qualcomm.qti.uceservice@2.0_vendor",
-                "com.qualcomm.qti.uceservice@2.1_vendor",
-                "com.qualcomm.qti.uceservice@2.2_vendor",
-                "com.qualcomm.qti.uceservice@2.3_vendor",
-                "com.qualcomm.qti.imscmservice@2.1_vendor",
-                "com.qualcomm.qti.imscmservice@2.2_vendor",
+                "com.qualcomm.qti.imscmservice@2.0",
+                "com.qualcomm.qti.uceservice@2.0",
+                "com.qualcomm.qti.uceservice@2.1",
+                "com.qualcomm.qti.uceservice@2.2",
+                "com.qualcomm.qti.uceservice@2.3",
+                "com.qualcomm.qti.imscmservice@2.1",
+                "com.qualcomm.qti.imscmservice@2.2",
                 "vendor.qti.ims.callinfo@1.0",
                 "vendor.qti.ims.rcsconfig@2.0",
+                "vendor.qti.ims.rcsconfig@2.1",
                 "vendor.qti.ims.factory@1.0",
-                "vendor.qti.ims.callcapability@1.0_vendor",
+                "vendor.qti.ims.factory@1.1",
+                "vendor.qti.ims.callcapability@1.0",
                 "libc++",
                 "libc",
                 "libm",
@@ -4889,15 +4855,16 @@ cc_prebuilt_library_shared {
                 "libqmi_cci",
                 "libqti_vndfwk_detect",
                 "libidl",
-                "com.qualcomm.qti.imscmservice@2.0_vendor",
-                "com.qualcomm.qti.imscmservice@2.1_vendor",
-                "com.qualcomm.qti.imscmservice@2.2_vendor",
-                "com.qualcomm.qti.uceservice@2.0_vendor",
-                "com.qualcomm.qti.uceservice@2.1_vendor",
-                "com.qualcomm.qti.uceservice@2.2_vendor",
-                "com.qualcomm.qti.uceservice@2.3_vendor",
+                "com.qualcomm.qti.imscmservice@2.0",
+                "com.qualcomm.qti.imscmservice@2.1",
+                "com.qualcomm.qti.imscmservice@2.2",
+                "com.qualcomm.qti.uceservice@2.0",
+                "com.qualcomm.qti.uceservice@2.1",
+                "com.qualcomm.qti.uceservice@2.2",
+                "com.qualcomm.qti.uceservice@2.3",
                 "vendor.qti.ims.callinfo@1.0",
                 "vendor.qti.ims.factory@1.0",
+                "vendor.qti.ims.factory@1.1",
                 "libc++",
                 "libc",
                 "libm",
@@ -4994,7 +4961,9 @@ cc_prebuilt_library_shared {
                 "libhardware_legacy",
                 "libqti_vndfwk_detect",
                 "vendor.qti.ims.rcsconfig@2.0",
+                "vendor.qti.ims.rcsconfig@2.1",
                 "vendor.qti.ims.factory@1.0",
+                "vendor.qti.ims.factory@1.1",
                 "libc++",
                 "libc",
                 "libm",
@@ -5150,8 +5119,8 @@ cc_prebuilt_library_shared {
                 "lib-siputility",
                 "libqti_vndfwk_detect",
                 "lib-imscmservice",
-                "com.qualcomm.qti.imscmservice@2.0_vendor",
-                "com.qualcomm.qti.uceservice@2.0_vendor",
+                "com.qualcomm.qti.imscmservice@2.0",
+                "com.qualcomm.qti.uceservice@2.0",
                 "libc++",
                 "libc",
                 "libm",
@@ -9354,8 +9323,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.ims.callcapability@1.0_vendor",
-    stem: "vendor.qti.ims.callcapability@1.0",
+    name: "vendor.qti.ims.callcapability@1.0",
     owner: "asus",
     strip: {
         none: true,
@@ -9383,8 +9351,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.ims.callinfo@1.0_vendor",
-    stem: "vendor.qti.ims.callinfo@1.0",
+    name: "vendor.qti.ims.callinfo@1.0",
     owner: "asus",
     strip: {
         none: true,
@@ -9412,8 +9379,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.ims.factory@1.0_vendor",
-    stem: "vendor.qti.ims.factory@1.0",
+    name: "vendor.qti.ims.factory@1.0",
     owner: "asus",
     strip: {
         none: true,
@@ -9424,7 +9390,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.qti.ims.factory@1.0.so",
             ],
             shared_libs: [
-                "vendor.qti.ims.callcapability@1.0_vendor",
+                "vendor.qti.ims.callcapability@1.0",
                 "vendor.qti.ims.rcsconfig@2.0",
                 "libhidlbase",
                 "liblog",
@@ -9443,8 +9409,39 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.ims.rcsconfig@1.0_vendor",
-    stem: "vendor.qti.ims.rcsconfig@1.0",
+    name: "vendor.qti.ims.factory@1.1",
+    owner: "asus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.qti.ims.factory@1.1.so",
+            ],
+            shared_libs: [
+                "vendor.qti.ims.callcapability@1.0",
+                "vendor.qti.ims.factory@1.0",
+                "vendor.qti.ims.rcsconfig@2.0",
+                "vendor.qti.ims.rcsconfig@2.1",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.qti.ims.rcsconfig@1.0",
     owner: "asus",
     strip: {
         none: true,
@@ -9512,6 +9509,35 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so",
             ],
             shared_libs: [
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.qti.ims.rcsconfig@2.1",
+    owner: "asus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so",
+            ],
+            shared_libs: [
+                "vendor.qti.ims.rcsconfig@2.0",
                 "libhidlbase",
                 "liblog",
                 "libutils",
@@ -9949,239 +9975,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.imscmservice@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/com.qualcomm.qti.imscmservice@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.imscmservice@2.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/com.qualcomm.qti.imscmservice@2.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.imscmservice@2.1",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/com.qualcomm.qti.imscmservice@2.1.so",
-            ],
-            shared_libs: [
-                "com.qualcomm.qti.imscmservice@2.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.imscmservice@2.2",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/com.qualcomm.qti.imscmservice@2.2.so",
-            ],
-            shared_libs: [
-                "com.qualcomm.qti.imscmservice@2.0",
-                "com.qualcomm.qti.imscmservice@2.1",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.uceservice@2.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.uceservice@2.1",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so",
-            ],
-            shared_libs: [
-                "com.qualcomm.qti.uceservice@2.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.uceservice@2.2",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.2.so",
-            ],
-            shared_libs: [
-                "com.qualcomm.qti.uceservice@2.0",
-                "com.qualcomm.qti.uceservice@2.1",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.uceservice@2.3",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.3.so",
-            ],
-            shared_libs: [
-                "com.qualcomm.qti.uceservice@2.0",
-                "com.qualcomm.qti.uceservice@2.1",
-                "com.qualcomm.qti.uceservice@2.2",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "com.quicinc.cne.api@1.0",
     owner: "asus",
     strip: {
@@ -10325,58 +10118,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "lib-imscamera",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/lib-imscamera.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libnativehelper",
-                "libandroid_runtime",
-                "libgui",
-                "libui",
-                "libmedia",
-                "libbinder",
-                "libcamera_client",
-                "libhardware",
-                "libbase",
-                "libhardware_legacy",
-                "libhidlbase",
-                "libhidlmemory",
-                "android.hidl.allocator@1.0",
-                "android.hidl.memory@1.0",
-                "android.hardware.media.omx@1.0",
-                "android.hardware.camera.common@1.0",
-                "android.hardware.camera.provider@2.4",
-                "android.hardware.camera.device@1.0",
-                "vendor.qti.hardware.camera.device@1.0",
-                "android.hardware.camera.device@3.2",
-                "android.hardware.camera.device@3.3",
-                "android.hardware.camera.device@3.4",
-                "android.hardware.camera.device@3.5",
-                "android.hardware.camera.provider@2.5",
-                "android.hardware.camera.provider@2.6",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "lib-imsvideocodec",
     owner: "asus",
     strip: {
@@ -10397,38 +10138,7 @@ cc_prebuilt_library_shared {
                 "libgui",
                 "libandroid",
                 "libnativewindow",
-                "libcamera_client",
-                "libstagefright_foundation",
-                "libqdMetaData",
-                "libstagefright",
-                "libbase",
-                "libhardware_legacy",
-                "libhardware",
-                "libhidlbase",
-                "libhidlmemory",
-                "android.hidl.allocator@1.0",
-                "android.hidl.memory@1.0",
-                "android.hardware.media.omx@1.0",
-                "android.hardware.camera.common@1.0",
-                "android.hardware.camera.provider@2.4",
-                "android.hardware.camera.device@1.0",
-                "vendor.qti.hardware.camera.device@1.0",
-                "android.hardware.camera.device@3.2",
-                "android.hardware.camera.device@3.3",
-                "android.hardware.camera.device@3.4",
-                "android.hardware.camera.device@3.5",
-                "android.hardware.camera.provider@2.5",
-                "android.hardware.camera.provider@2.6",
-                "libnativehelper",
-                "libandroid_runtime",
-                "libui",
-                "libmedia",
-                "libmedia_omx",
-                "libmedia_omx_client",
-                "lib-imscamera",
-                "libbinder",
-                "libGLESv2",
-                "libEGL",
+                "libmediandk",
                 "libc++",
                 "libc",
                 "libm",
@@ -10457,6 +10167,7 @@ cc_prebuilt_library_shared {
                 "libmediandk",
                 "libnativewindow",
                 "libion",
+                "libdmabufheap",
                 "lib-imsvtutils",
                 "libandroid",
                 "libhidlbase",
@@ -11039,120 +10750,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.ims.callcapability@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/vendor.qti.ims.callcapability@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.ims.callinfo@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/vendor.qti.ims.callinfo@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.ims.factory@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/vendor.qti.ims.factory@1.0.so",
-            ],
-            shared_libs: [
-                "vendor.qti.ims.callcapability@1.0",
-                "vendor.qti.ims.rcsconfig@2.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.ims.rcsconfig@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.0",
     owner: "asus",
     strip: {
@@ -11258,17 +10855,6 @@ android_app_import {
 }
 
 android_app_import {
-    name: "imssettings",
-    owner: "asus",
-    apk: "proprietary/system_ext/app/imssettings/imssettings.apk",
-    certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
-    system_ext_specific: true,
-}
-
-android_app_import {
     name: "dpmserviceapp",
     owner: "asus",
     apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
@@ -11317,69 +10903,6 @@ dex_import {
     owner: "asus",
     jars: [
         "proprietary/system_ext/framework/com.qti.dpmframework.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.qualcomm.qti.imscmservice-V2.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.qualcomm.qti.imscmservice-V2.1-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.qualcomm.qti.imscmservice-V2.2-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.qualcomm.qti.uceservice-V2.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.qualcomm.qti.uceservice-V2.1-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.qualcomm.qti.uceservice-V2.2-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.2-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.qualcomm.qti.uceservice-V2.3-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.3-java.jar",
     ],
     system_ext_specific: true,
 }
@@ -11551,33 +11074,6 @@ dex_import {
     owner: "asus",
     jars: [
         "proprietary/system_ext/framework/vendor.qti.hardware.soter-V1.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "vendor.qti.ims.callcapability-V1.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/vendor.qti.ims.callcapability-V1.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "vendor.qti.ims.callinfo-V1.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "vendor.qti.ims.rcsconfig-V1.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar",
     ],
     system_ext_specific: true,
 }
