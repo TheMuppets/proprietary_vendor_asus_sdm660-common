@@ -3272,8 +3272,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.mwqemadapter@1.0_vendor",
-    stem: "vendor.qti.hardware.mwqemadapter@1.0",
+    name: "vendor.qti.hardware.mwqemadapter@1.0",
     owner: "asus",
     strip: {
         none: true,
@@ -5347,20 +5346,20 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libnl",
                 "libidl",
-                "vendor.qti.hardware.data.cne.internal.server@1.0_vendor",
-                "vendor.qti.hardware.data.cne.internal.api@1.0_vendor",
-                "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor",
-                "vendor.qti.hardware.data.latency@1.0_vendor",
+                "vendor.qti.hardware.data.cne.internal.server@1.0",
+                "vendor.qti.hardware.data.cne.internal.api@1.0",
+                "vendor.qti.hardware.data.cne.internal.constants@1.0",
+                "vendor.qti.hardware.data.latency@1.0",
                 "libandroid_net",
                 "vendor.qti.data.factory@2.0",
                 "vendor.qti.data.factory@2.1",
                 "vendor.qti.data.factory@2.2",
-                "vendor.qti.hardware.data.qmi@1.0_vendor",
-                "vendor.qti.hardware.data.dynamicdds@1.0_vendor",
+                "vendor.qti.hardware.data.qmi@1.0",
+                "vendor.qti.hardware.data.dynamicdds@1.0",
                 "vendor.qti.ims.rcsconfig@1.0",
                 "vendor.qti.ims.rcsconfig@1.1",
                 "vendor.qti.latency@2.0",
-                "vendor.qti.hardware.mwqemadapter@1.0_vendor",
+                "vendor.qti.hardware.mwqemadapter@1.0",
                 "vendor.qti.data.mwqem@1.0",
                 "libwpa_client",
                 "libc++",
@@ -5393,7 +5392,7 @@ cc_prebuilt_library_shared {
                 "libdiag",
                 "liblog",
                 "libhidlbase",
-                "vendor.qti.hardware.data.cne.internal.api@1.0_vendor",
+                "vendor.qti.hardware.data.cne.internal.api@1.0",
                 "vendor.qti.data.factory@2.0",
                 "vendor.qti.data.factory@2.1",
                 "vendor.qti.data.factory@2.2",
@@ -6791,9 +6790,9 @@ cc_prebuilt_library_shared {
                 "libdsi_netctrl",
                 "libqdp",
                 "liblqe",
-                "vendor.qti.hardware.data.iwlan@1.0_vendor",
-                "vendor.qti.hardware.data.connection@1.0_vendor",
-                "vendor.qti.hardware.data.connection@1.1_vendor",
+                "vendor.qti.hardware.data.iwlan@1.0",
+                "vendor.qti.hardware.data.connection@1.0",
+                "vendor.qti.hardware.data.connection@1.1",
                 "libc++",
                 "libc",
                 "libm",
@@ -7210,11 +7209,11 @@ cc_prebuilt_library_shared {
                 "libcneoplookup",
                 "libandroid_net",
                 "libutils",
-                "vendor.qti.hardware.data.cne.internal.api@1.0_vendor",
-                "vendor.qti.hardware.data.cne.internal.server@1.0_vendor",
-                "vendor.qti.hardware.data.latency@1.0_vendor",
+                "vendor.qti.hardware.data.cne.internal.api@1.0",
+                "vendor.qti.hardware.data.cne.internal.server@1.0",
+                "vendor.qti.hardware.data.latency@1.0",
                 "vendor.qti.latency@2.0",
-                "vendor.qti.hardware.mwqemadapter@1.0_vendor",
+                "vendor.qti.hardware.mwqemadapter@1.0",
                 "libc++",
                 "libc",
                 "libm",
@@ -7252,9 +7251,9 @@ cc_prebuilt_library_shared {
                 "libxml2",
                 "libandroid_net",
                 "libqti_vndfwk_detect",
-                "vendor.qti.hardware.data.cne.internal.server@1.0_vendor",
-                "vendor.qti.hardware.data.cne.internal.api@1.0_vendor",
-                "vendor.qti.hardware.mwqemadapter@1.0_vendor",
+                "vendor.qti.hardware.data.cne.internal.server@1.0",
+                "vendor.qti.hardware.data.cne.internal.api@1.0",
+                "vendor.qti.hardware.mwqemadapter@1.0",
                 "libwpa_client",
                 "libc++",
                 "libc",
@@ -7564,11 +7563,11 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so",
             ],
             shared_libs: [
-                "vendor.qti.hardware.data.cne.internal.api@1.0_vendor",
-                "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor",
-                "vendor.qti.hardware.data.cne.internal.server@1.0_vendor",
-                "vendor.qti.hardware.data.dynamicdds@1.0_vendor",
-                "vendor.qti.hardware.data.qmi@1.0_vendor",
+                "vendor.qti.hardware.data.cne.internal.api@1.0",
+                "vendor.qti.hardware.data.cne.internal.constants@1.0",
+                "vendor.qti.hardware.data.cne.internal.server@1.0",
+                "vendor.qti.hardware.data.dynamicdds@1.0",
+                "vendor.qti.hardware.data.qmi@1.0",
                 "vendor.qti.ims.rcsconfig@1.0",
                 "vendor.qti.latency@2.0",
                 "libhidlbase",
@@ -7601,11 +7600,11 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "vendor.qti.data.factory@2.0",
                 "vendor.qti.data.slm@1.0",
-                "vendor.qti.hardware.data.cne.internal.api@1.0_vendor",
-                "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor",
-                "vendor.qti.hardware.data.cne.internal.server@1.0_vendor",
-                "vendor.qti.hardware.data.dynamicdds@1.0_vendor",
-                "vendor.qti.hardware.data.qmi@1.0_vendor",
+                "vendor.qti.hardware.data.cne.internal.api@1.0",
+                "vendor.qti.hardware.data.cne.internal.constants@1.0",
+                "vendor.qti.hardware.data.cne.internal.server@1.0",
+                "vendor.qti.hardware.data.dynamicdds@1.0",
+                "vendor.qti.hardware.data.qmi@1.0",
                 "vendor.qti.ims.rcsconfig@1.0",
                 "vendor.qti.ims.rcsconfig@1.1",
                 "vendor.qti.latency@2.0",
@@ -7641,11 +7640,11 @@ cc_prebuilt_library_shared {
                 "vendor.qti.data.factory@2.1",
                 "vendor.qti.data.mwqem@1.0",
                 "vendor.qti.data.slm@1.0",
-                "vendor.qti.hardware.data.cne.internal.api@1.0_vendor",
-                "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor",
-                "vendor.qti.hardware.data.cne.internal.server@1.0_vendor",
-                "vendor.qti.hardware.data.dynamicdds@1.0_vendor",
-                "vendor.qti.hardware.data.qmi@1.0_vendor",
+                "vendor.qti.hardware.data.cne.internal.api@1.0",
+                "vendor.qti.hardware.data.cne.internal.constants@1.0",
+                "vendor.qti.hardware.data.cne.internal.server@1.0",
+                "vendor.qti.hardware.data.dynamicdds@1.0",
+                "vendor.qti.hardware.data.qmi@1.0",
                 "vendor.qti.ims.rcsconfig@1.0",
                 "vendor.qti.ims.rcsconfig@1.1",
                 "vendor.qti.latency@2.0",
@@ -8072,8 +8071,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.cne.internal.api@1.0_vendor",
-    stem: "vendor.qti.hardware.data.cne.internal.api@1.0",
+    name: "vendor.qti.hardware.data.cne.internal.api@1.0",
     owner: "asus",
     strip: {
         none: true,
@@ -8084,7 +8082,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so",
             ],
             shared_libs: [
-                "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor",
+                "vendor.qti.hardware.data.cne.internal.constants@1.0",
                 "libhidlbase",
                 "liblog",
                 "libutils",
@@ -8102,8 +8100,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor",
-    stem: "vendor.qti.hardware.data.cne.internal.constants@1.0",
+    name: "vendor.qti.hardware.data.cne.internal.constants@1.0",
     owner: "asus",
     strip: {
         none: true,
@@ -8131,8 +8128,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.cne.internal.server@1.0_vendor",
-    stem: "vendor.qti.hardware.data.cne.internal.server@1.0",
+    name: "vendor.qti.hardware.data.cne.internal.server@1.0",
     owner: "asus",
     strip: {
         none: true,
@@ -8143,7 +8139,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so",
             ],
             shared_libs: [
-                "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor",
+                "vendor.qti.hardware.data.cne.internal.constants@1.0",
                 "libhidlbase",
                 "liblog",
                 "libutils",
@@ -8161,8 +8157,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.connection@1.0_vendor",
-    stem: "vendor.qti.hardware.data.connection@1.0",
+    name: "vendor.qti.hardware.data.connection@1.0",
     owner: "asus",
     strip: {
         none: true,
@@ -8190,8 +8185,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.connection@1.1_vendor",
-    stem: "vendor.qti.hardware.data.connection@1.1",
+    name: "vendor.qti.hardware.data.connection@1.1",
     owner: "asus",
     strip: {
         none: true,
@@ -8202,7 +8196,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.qti.hardware.data.connection@1.1.so",
             ],
             shared_libs: [
-                "vendor.qti.hardware.data.connection@1.0_vendor",
+                "vendor.qti.hardware.data.connection@1.0",
                 "libhidlbase",
                 "liblog",
                 "libutils",
@@ -8220,8 +8214,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.dynamicdds@1.0_vendor",
-    stem: "vendor.qti.hardware.data.dynamicdds@1.0",
+    name: "vendor.qti.hardware.data.dynamicdds@1.0",
     owner: "asus",
     strip: {
         none: true,
@@ -8249,8 +8242,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.iwlan@1.0_vendor",
-    stem: "vendor.qti.hardware.data.iwlan@1.0",
+    name: "vendor.qti.hardware.data.iwlan@1.0",
     owner: "asus",
     strip: {
         none: true,
@@ -8283,8 +8275,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.latency@1.0_vendor",
-    stem: "vendor.qti.hardware.data.latency@1.0",
+    name: "vendor.qti.hardware.data.latency@1.0",
     owner: "asus",
     strip: {
         none: true,
@@ -8312,8 +8303,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.qmi@1.0_vendor",
-    stem: "vendor.qti.hardware.data.qmi@1.0",
+    name: "vendor.qti.hardware.data.qmi@1.0",
     owner: "asus",
     strip: {
         none: true,
@@ -9904,49 +9894,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.mwqemadapter@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system_ext/lib/vendor.qti.hardware.mwqemadapter@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/vendor.qti.hardware.mwqemadapter@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.dpm.api@1.0",
     owner: "asus",
     strip: {
@@ -9956,149 +9903,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.quicinc.cne.api@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/com.quicinc.cne.api@1.0.so",
-            ],
-            shared_libs: [
-                "com.quicinc.cne.constants@1.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.quicinc.cne.api@1.1",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/com.quicinc.cne.api@1.1.so",
-            ],
-            shared_libs: [
-                "com.quicinc.cne.api@1.0",
-                "com.quicinc.cne.constants@2.1",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.quicinc.cne.constants@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/com.quicinc.cne.constants@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.quicinc.cne.constants@2.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/com.quicinc.cne.constants@2.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.quicinc.cne.constants@2.1",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/com.quicinc.cne.constants@2.1.so",
             ],
             shared_libs: [
                 "libhidlbase",
@@ -10490,266 +10294,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.cne.internal.api@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so",
-            ],
-            shared_libs: [
-                "vendor.qti.hardware.data.cne.internal.constants@1.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.cne.internal.constants@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.cne.internal.server@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so",
-            ],
-            shared_libs: [
-                "vendor.qti.hardware.data.cne.internal.constants@1.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.connection@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/vendor.qti.hardware.data.connection@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.connection@1.1",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/vendor.qti.hardware.data.connection@1.1.so",
-            ],
-            shared_libs: [
-                "vendor.qti.hardware.data.connection@1.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.dynamicdds@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.iwlan@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so",
-            ],
-            shared_libs: [
-                "android.hardware.radio@1.0",
-                "android.hardware.radio@1.1",
-                "android.hardware.radio@1.2",
-                "android.hardware.radio@1.3",
-                "android.hardware.radio@1.4",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.latency@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/vendor.qti.hardware.data.latency@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.data.qmi@1.0",
-    owner: "asus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.0",
     owner: "asus",
     strip: {
@@ -10908,51 +10452,6 @@ dex_import {
 }
 
 dex_import {
-    name: "com.quicinc.cne.api-V1.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/com.quicinc.cne.api-V1.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.quicinc.cne.api-V1.1-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/com.quicinc.cne.api-V1.1-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.quicinc.cne.constants-V1.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/com.quicinc.cne.constants-V1.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.quicinc.cne.constants-V2.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/com.quicinc.cne.constants-V2.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.quicinc.cne.constants-V2.1-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/com.quicinc.cne.constants-V2.1-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
     name: "dpmapi",
     owner: "asus",
     jars: [
@@ -10984,87 +10483,6 @@ dex_import {
     owner: "asus",
     jars: [
         "proprietary/system_ext/framework/qti-telephony-common.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "vendor.qti.hardware.data.cne.internal.api-V1.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "vendor.qti.hardware.data.cne.internal.constants-V1.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.constants-V1.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "vendor.qti.hardware.data.cne.internal.server-V1.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.server-V1.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "vendor.qti.hardware.data.connection-V1.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/vendor.qti.hardware.data.connection-V1.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "vendor.qti.hardware.data.connection-V1.1-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/vendor.qti.hardware.data.connection-V1.1-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "vendor.qti.hardware.data.dynamicdds-V1.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "vendor.qti.hardware.data.iwlan-V1.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "vendor.qti.hardware.data.latency-V1.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "vendor.qti.hardware.data.qmi-V1.0-java",
-    owner: "asus",
-    jars: [
-        "proprietary/system_ext/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar",
     ],
     system_ext_specific: true,
 }
@@ -11238,15 +10656,15 @@ cc_prebuilt_binary {
                 "libqmiservices",
                 "libhidlbase",
                 "libandroid_net",
-                "vendor.qti.hardware.data.cne.internal.api@1.0_vendor",
-                "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor",
-                "vendor.qti.hardware.data.cne.internal.server@1.0_vendor",
-                "vendor.qti.hardware.data.latency@1.0_vendor",
+                "vendor.qti.hardware.data.cne.internal.api@1.0",
+                "vendor.qti.hardware.data.cne.internal.constants@1.0",
+                "vendor.qti.hardware.data.cne.internal.server@1.0",
+                "vendor.qti.hardware.data.latency@1.0",
                 "vendor.qti.data.factory@2.0",
                 "vendor.qti.data.factory@2.1",
                 "vendor.qti.data.factory@2.2",
                 "vendor.qti.latency@2.0",
-                "vendor.qti.hardware.mwqemadapter@1.0_vendor",
+                "vendor.qti.hardware.mwqemadapter@1.0",
                 "libc++",
                 "libc",
                 "libm",
